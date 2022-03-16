@@ -1,0 +1,112 @@
+section.tab
+  background: #F9F6FB
+  padding: 4.4rem 0
+
+  h2
+    font:
+      size: 2.1rem
+      weight: 700
+    text-align: center
+  .tab__descriptions
+    display: flex
+    justify-content: center
+    margin: 1.5rem 0 0
+    p
+      display: block
+      max-width: 70%
+      font:
+        size: 1.125rem
+      text-align: center
+  .tab__section
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-start
+    padding: 2rem 0
+  .section
+    &__item
+      display: flex
+      flex-direction: column
+      justify-content: flex-end
+      padding: 35px
+      min-height: 210px
+      transition: box-shadow .5s ease-in-out, font-size .3s ease-in-out
+      &:hover
+        box-shadow: 3px 10px 14px rgba(0, 0, 0, 0.16)
+        border-radius: 10px
+        cursor: pointer
+        background: #fff
+        
+      h3
+        font:
+          size: 1.125rem
+        text-align: center
+  &__2
+    background: #fff
+    .container
+      position: relative
+    .tab__section
+      align-items: stretch
+    .section
+      &__item
+        align-items: center
+        justify-content: flex-start
+        padding: .3rem 0
+        padding-bottom: 4rem
+        position: relative
+        margin-top: 2rem
+        &:hover
+          background: #F9F6FB
+          cursor: default
+        button
+          width: 80%
+          position: absolute
+          bottom: .5rem
+          border-radius: 28px
+          background: #fff
+          border: 1px solid #8B8B8B
+          padding: 14px
+          transition: background .5s ease-in-out, font-size .3s ease-in-out
+          &:hover
+            background: #00EB2B
+        &__img
+          background: #F6F4F8
+          border-radius: 60px
+          width: 120px
+          height: 120px
+          display: flex
+          align-items: center
+          justify-content: center
+        h3
+          font:
+            weight: 700
+          margin: .5rem 0
+        &__descriptions
+          max-width: 80%
+          line-height: 1.33
+          font:
+            weight: 400
+    .paginator
+      width: 100%
+      display: flex
+      justify-content: center
+      position: absolute
+      bottom: -7rem
+      span.news-more
+        // border: 1px solid 
+        background: #fff
+        padding: 30px 95px
+        border-radius: 46px
+        display: flex
+        justify-content: center
+        transition: box-shadow .5s ease-in-out, font-size .3s ease-in-out
+        font:
+          size: 1.125rem
+          weight: 600
+        cursor: pointer
+        &:hover
+          box-shadow: 3px 10px 14px rgba(0, 0, 0, 0.16)
+        .arrow
+          padding: 0 1rem
+
+          
